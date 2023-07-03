@@ -18,6 +18,7 @@ body {
     position: relative;
 }
 
+
 nav {
     display: flex;
     padding: 20px 60px;
@@ -1059,12 +1060,16 @@ i.fa {
         height: 70vh;
         background: green;
         position: absolute;
-        top: 60px;
+        top: 75px;
         right: 0;
         z-index: 2;
         display: none;
 
 
+    }
+    .real{
+        margin-top: 2rem;
+        margin-right: 5px;
     }
 
     .navlink ul li {
@@ -1124,7 +1129,6 @@ i.fa {
     .product {
         margin-bottom: 20px;
         margin-top: 8rem;
-        border: 1px solid red;
         width: 70%;
     }
 
@@ -1132,6 +1136,11 @@ i.fa {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 1rem;
+
+    }
+    .extra{
+        margin-top: 18rem;
+
 
     }
 
@@ -1287,6 +1296,9 @@ i.fa {
         margin-bottom: 2rem;
 
     }
+    .rap{
+        margin-top: 5rem;
+    }
 
     .serv h3 {
         width: 80%;
@@ -1368,8 +1380,9 @@ i.fa {
     }
 
     section .left {
-        margin-top: 0rem;
+        margin-top: 6rem;
     }
+    
 
 
     .touch {
