@@ -697,11 +697,11 @@ section.two .note {
     background: rgba(226, 0, 0, 0.7);
 }
 
-.layer h3 {
+.layer h4 {
     width: 100%;
-    font-weight: 500;
+    /* font-weight: 500; */
     color: #fff;
-    font-size: 26px;
+    font-size: 18px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -711,7 +711,7 @@ section.two .note {
 
 }
 
-.layer:hover h3 {
+.layer:hover h4 {
     bottom: 40%;
     opacity: 1;
 }
@@ -1143,17 +1143,30 @@ i.fa-brands{
 
     .product .row {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-gap: 0.5px;
         margin: 0;
 
     }
+    .product .full{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0.5px;
+        margin: 0;
+
+
+    }
+    
     .extra{
         margin-top: 18rem;
 
 
     }
-
+    
+    .product-col{
+        padding: 10px;
+        width: 100px;
+    }
     .product-col img {
         height: 150px;
         width: 100%;
@@ -1618,6 +1631,7 @@ i.fa-brands{
         grid-gap: 1rem;
 
     }
+    
 
     .product-col img {
         height: 200px;
