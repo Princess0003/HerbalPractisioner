@@ -751,17 +751,16 @@ section.two .note {
 }
 
 .facilities-col p {
-    padding: 0;
     color: #777;
     font-size: 15px;
     line-height: 22px;
-    padding: 10px;
+    padding: 2px;
 
 }
 
 .facilities-col h3 {
     margin-top: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 2px;
     text-align: left;
 
 }
@@ -1146,6 +1145,8 @@ i.fa-brands{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0.5px;
         margin: 0;
+        width: 100%;
+        padding: 0;
 
     }
     .product .full{
@@ -1165,8 +1166,11 @@ i.fa-brands{
     
     .product-col{
         padding: 10px;
-        width: 100px;
+        width: 70%;
+        height: 85%;
+        margin-left: 30px;
     }
+
     .product-col img {
         height: 150px;
         width: 100%;
@@ -1176,7 +1180,7 @@ i.fa-brands{
     .facilities .row {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1rem;
+        grid-gap: 2rem;
     }
 
     .facilities-col h3 {
